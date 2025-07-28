@@ -13,8 +13,12 @@ function App() {
     setCount(count)
   }
   function Dec() {
-    count = count - 1 
-    setCount(count)
+    if(count <= 0){
+      return
+    }else{
+      count = count - 1 
+      setCount(count)
+    }
   }
   function Reset() {
     count = 0 
