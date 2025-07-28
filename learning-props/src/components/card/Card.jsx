@@ -1,6 +1,4 @@
-import React from "react";
 import "./Card.css";
-import img from "../../assets/img.jpg";
 
 function Card(props) {
   return (
